@@ -88,12 +88,12 @@ To clone and use the To-Do List application locally, follow these steps:
    Open your terminal and run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/to-do-list-app.git
+   git clone https://github.com/unknownguy49/to-do-list.git
 
 2. **Navigate to the project directory**:
 
    ```bash
-   cd to-do-list-app
+   cd to-do-list
    ```
 
 3. **Open the project in your browser**:
