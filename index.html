@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="task-input-container">
+            <h1>Create Task</h1>
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <select id="prioritySelect">
+                <option value="low" selected>Low Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="high">High Priority</option>
+            </select>
+            <select id="categorySelect">
+                <option value="personal" selected>Personal</option>
+                <option value="work">Work</option>
+                <option value="study">Study</option>
+            </select>
+            <input type="date" id="dueDateInput">
+            <button id="addButton">Add Task</button>
+        </div>
+    
+        <div class="task-list-container">
+            <div class="filter-container">
+                <select id="priorityFilter">
+                    <option value="">All Priorities</option>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <select id="categoryFilter">
+                    <option value="">All Categories</option>
+                    <option value="personal">Personal</option>
+                    <option value="work">Work</option>
+                    <option value="study">Study</option>
+                </select>
+                <select id="completionFilter">
+                    <option value="">All Tasks</option>
+                    <option value="completed">Completed</option>
+                    <option value="not-completed">Not Completed</option>
+                </select>
+            </div>
+            
+            <ul id="taskList"></ul>
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>
